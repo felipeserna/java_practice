@@ -11,17 +11,17 @@ Since the return type is an integer, the decimal digits are **truncated**, and o
 
 **Example 1:**
 ```
-**Input:** x = 4
+* Input: x = 4
 
-**Output:** 2
+* Output: 2
 ```
 **Example 2:**
 ```
-**Input:** x = 8
+* Input: x = 8
 
-**Output:** 2
+* Output: 2
 
-**Explanation:** The square root of 8 is 2.82842..., and since the decimal part is truncated, 2 is returned.
+* Explanation: The square root of 8 is 2.82842..., and since the decimal part is truncated, 2 is returned.
 ``` 
 
 **Constraints:**
