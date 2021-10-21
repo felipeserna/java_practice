@@ -26,4 +26,4 @@ Since the return type is an integer, the decimal digits are **truncated**, and o
 
 **Constraints:**
 
-0 <= x <= 231 - 1
+0 <= x <= 2⁽³¹⁾ - 1
