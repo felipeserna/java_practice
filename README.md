@@ -9,3 +9,5 @@ $sudo apt install default-jdk
 $sudo apt install default-jre
 
 $sudo apt install maven
+
+http://machine-learning-in-java.com
