@@ -5,16 +5,16 @@ class Solution {
             if (s.charAt(i) == 'L') {
                 output += 50;
             }
-            if (s.charAt(i) == 'V') {
+            else if (s.charAt(i) == 'V') {
                 output += 5;
             }
-            if (s.charAt(i) == 'M') {
+            else if (s.charAt(i) == 'M') {
                 output += 1000;
             }
             else if (s.charAt(i) == 'D') {
                 output += 500;
             }
-            if (i + 1 < s.length() && s.charAt(i) == 'C') {
+            else if (i + 1 < s.length() && s.charAt(i) == 'C') {
                 if (s.charAt(i + 1) == 'D' || s.charAt(i + 1) == 'M') {
                     output -= 100;
                     }
@@ -22,10 +22,10 @@ class Solution {
                     output += 100;
                     }
                 }
-            if (i + 1 == s.length() && s.charAt(i) == 'C') {
+            else if (i + 1 == s.length() && s.charAt(i) == 'C') {
                 output += 100;
             }
-            if (i + 1 < s.length() && s.charAt(i) == 'X') {
+            else if (i + 1 < s.length() && s.charAt(i) == 'X') {
                 if (s.charAt(i + 1) == 'L' || s.charAt(i + 1) == 'C') {
                     output -= 10;
                     }
@@ -33,10 +33,10 @@ class Solution {
                     output += 10;
                     }
                 }
-            if (i + 1 == s.length() && s.charAt(i) == 'X') {
+            else if (i + 1 == s.length() && s.charAt(i) == 'X') {
                 output += 10;
             }
-            if (i + 1 < s.length() && s.charAt(i) == 'I') {
+            else if (i + 1 < s.length() && s.charAt(i) == 'I') {
                 if (s.charAt(i + 1) == 'V' || s.charAt(i + 1) == 'X') {
                     output -= 1;
                     }
@@ -44,7 +44,7 @@ class Solution {
                     output += 1;
                     }
                 }
-            if (i + 1 == s.length() && s.charAt(i) == 'I') {
+            else if (i + 1 == s.length() && s.charAt(i) == 'I') {
                 output += 1;
             }
         }
